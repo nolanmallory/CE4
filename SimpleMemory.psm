@@ -1,16 +1,16 @@
-	LOAD9	   00	   7	LDAI	9		N	1	Y
+	LOAD9	   00	   7	LDAI	9	Loads the value of 9	N	1	Y
 		   01	   9				Y	0	N
-	STORE9	   02	   D	STA	First Number		N	2	Y
+	STORE9	   02	   D	STA	First Number	Stores 9 in the location of B0	N	2	Y
 		   03	   0				Y	0	N
 		   04	   B				Y	0	N
-	LOAD8	   05	   7	LDAI	8		N	1	Y
+	LOAD8	   05	   7	LDAI	8	Loads the value of 8	N	1	Y
 		   06	   8				Y	0	N
-	STORE8	   07	   D	STA	Second Number		N	2	Y
+	STORE8	   07	   D	STA	Second Number	Stores 8 in the location of C4	N	2	Y
 		   08	   4				Y	0	N
 		   09	   C				Y	0	N
-	LOADB	   0A	   7	LDAI	B		N	1	Y
+	LOADB	   0A	   7	LDAI	B	Loads the value of B	N	1	Y
 		   0B	   B				Y	0	N
-	STOREB	   0C	   D	STA	Third Number		N	2	Y
+	STOREB	   0C	   D	STA	Third Number	Stores 9 in the location of CB	N	2	Y
 		   0D	   B				Y	0	N
 		   0E	   C				Y	0	N
 		   0F	   9	JMP	LOAD9		N	2	Y

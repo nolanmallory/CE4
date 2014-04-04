@@ -1,12 +1,12 @@
-	Load	   00	   F	LDAD	Location		N	2	Y
+	Load	   00	   F	LDAD	Location	Whatever value was chosen is loaded here	N	2	Y
 		   01	   0				Y	0	N
 		   02	   B				Y	0	N
-		   03	   E	ADDD	Location		N	2	Y
+		   03	   E	ADDD	Location	The initial number is doubled by adding it to itself	N	2	Y
 		   04	   0				Y	0	N
 		   05	   B				Y	0	N
-		   06	   6	ADDI	C		N	1	Y
+		   06	   6	ADDI	C	Subtracts 4 by adding twos complement	N	1	Y
 		   07	   C				Y	0	N
-		   08	   4	OUT	2		N	1	Y
+		   08	   4	OUT	2	Outputted to port 2	N	1	Y
 		   09	   2				Y	0	N
 		   0A	   9	JMP	Load		N	2	Y
 		   0B	   0				Y	0	N

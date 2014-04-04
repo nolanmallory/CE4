@@ -1,16 +1,16 @@
-	Load	   00	   5	IN	3		N	1	Y
+	Load	   00	   5	IN	3	Input Port 3's value is inputted	N	1	Y
 		   01	   3				Y	0	N
-	loop	   02	   4	OUT	0		N	1	Y
+	loop	   02	   4	OUT	0	Input Port 3's value is outputted to Port 0	N	1	Y
 		   03	   0				Y	0	N
-		   04	   6	ADDI	F		N	1	Y
+		   04	   6	ADDI	F	One is subtracted From Output Port 3's existing value	N	1	Y
 		   05	   F				Y	0	N
-		   06	   4	OUT	1		N	1	Y
+		   06	   4	OUT	1	New subtracted value is outputted in port 1	N	1	Y
 		   07	   1				Y	0	N
-		   08	   6	ADDI	F		N	1	Y
+		   08	   6	ADDI	F	same thing as above	N	1	Y
 		   09	   F				Y	0	N
-		   0A	   4	OUT	2		N	1	Y
+		   0A	   4	OUT	2	subtracted value is outputted to port 2	N	1	Y
 		   0B	   2				Y	0	N
-		   0C	   6	ADDI	1		N	1	Y
+		   0C	   6	ADDI	1	this adds one to the last value which will then appear in output port 0. it will end up being one less than its previous value	N	1	Y
 		   0D	   1				Y	0	N
 		   0E	   9	JMP	loop		N	2	Y
 		   0F	   2				Y	0	N
